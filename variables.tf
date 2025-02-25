@@ -13,4 +13,5 @@ variable "a"{
 variable "url"{
   description = "this is the url for the application"
   type       = string
+  sensitive   = true
 }
